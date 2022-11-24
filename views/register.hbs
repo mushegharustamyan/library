@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/register.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+</head>
+<body>
+    <header class="header">
+        <div class="header_wrapper">
+            <nav class="navigation">
+                <ul class="">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/"><img class="logo" src="../img/logo.png"></a></li>
+                    <li><a href="/login">login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="register_section">
+        <form onsubmit="return false" id="form" class="register_wrapper">
+            <input type="text" placeholder="enter name" id="name" class="input">
+            <input type="text" placeholder="enter surname" id="surname" class="input">
+            <input type="email" placeholder="enter email" id="email" class="input">
+            <input type="password" placeholder="enter password" id="password" class="input">
+            <button type="submit" class="register">Register</button>
+        </form>
+    </div>
+    <p id="message" style="display: none;"></p>
+    <script src="./js/register.js"></script>
+</body>
+</html>
